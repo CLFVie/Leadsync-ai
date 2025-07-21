@@ -1,0 +1,11 @@
+# Entpacken der ZIP-Datei
+unzip lead-sync-ai-starter.zip
+cd lead-sync-ai
+
+# Git initialisieren und verknüpfen
+git init
+git remote add origin https://github.com/CLFVie/Leadsync-ai.git
+git add .
+git commit -m "Initial commit for LeadSync AI Starter"
+git branch -M main
+git push -u origin main
